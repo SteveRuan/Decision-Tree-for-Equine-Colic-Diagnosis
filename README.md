@@ -6,22 +6,39 @@ Use the horseTrain file, (found in the Assignment 4 folder) to train the decisio
 tree. Each training instance has 16 numeric attributes (features) and a classification, all separated
 by commas. The attributes correspond to the following measurements made from each patient at
 admission to the clinic.
+
 1. K
+
 2. Na
+
 3. CL
+
 4. HCO3
+
 5. Endotoxin
+
 6. Aniongap
+
 7. PLA2
+
 8. SDH
+
 9. GLDH
+
 10. TPP
+
 11. Breath rate
+
 12. PCV
+
 13. Pulse rate
+
 14. Fibrinogen
+
 15. Dimer
+
 16. FibPerDim
+
 In the decision tree, use only binary tests, i.e. each node should test whether a particular
 attribute has a value greater or smaller than a threshold. In deciding which attribute to test at
 any point, use the information gain metric. Set the node test threshold for each potential attribute
